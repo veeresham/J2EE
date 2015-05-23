@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Add Student</title>
+</head>
+<body>
+<form action="AddStudent">
+	<table>
+		<tr>
+			<td>Student ID :</td>
+			<td><input type="text" name="sid" /></td>
+		</tr>
+		<tr>
+			<td>Student Name :</td>
+			<td><input type="text" name="sname" /></td>
+		</tr>
+		<tr>
+			<td>Gender</td>
+			<td>
+				<input type="radio" name="sgender" value="m" >Male
+				<input type="radio" name="sgender" value="f" >Female
+			</td>
+		</tr>
+		<tr>
+			<td>Age</td>
+			<td>
+				<select name="sage">
+					<option label="20" value="20" />
+					<option label="21" value="21" />
+					<option label="22" value="22" />
+				</select>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<input type="submit" value="Save">
+			</td>
+			<td>
+				<input type="reset" value="Clear">
+			</td>
+		</tr>
+	</table>
+</form>
+</body>
+</html>
