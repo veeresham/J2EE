@@ -1,0 +1,5 @@
+<!-- The SAR META-INF/jboss-service.xml descriptor -->
+<server>
+	<mbean code="com.test.MyService" name="com.test:service=MyBean">
+	</mbean>
+</server> 
